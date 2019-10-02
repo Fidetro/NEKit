@@ -288,6 +288,7 @@
 		36E9CD001DD6EEF5003597CE /* QueueFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E9CCFE1DD6EEF5003597CE /* QueueFactory.swift */; };
 		36E9CD041DD6F0DE003597CE /* Resolver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360F392B1DD2068E002BED59 /* Resolver.framework */; };
 		36E9CD051DD6F0DE003597CE /* Resolver.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 360F392B1DD2068E002BED59 /* Resolver.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9AA409DC23447CE400D7D9BD /* GCMCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA409DA23447B5E00D7D9BD /* GCMCrypto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -555,6 +556,7 @@
 		36DB3CEE1E0D610500D907DB /* IPAddressSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPAddressSpec.swift; sourceTree = "<group>"; };
 		36E44A011CF2ED4800185DBF /* TUNInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TUNInterface.swift; sourceTree = "<group>"; };
 		36E9CCFE1DD6EEF5003597CE /* QueueFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QueueFactory.swift; path = Tunnel/QueueFactory.swift; sourceTree = "<group>"; };
+		9AA409DA23447B5E00D7D9BD /* GCMCrypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCMCrypto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -796,6 +798,7 @@
 			children = (
 				3650FAED1D27C8A900444E79 /* CCCrypto.swift */,
 				3650FAF01D27C8CB00444E79 /* CryptoEnum.swift */,
+				9AA409DA23447B5E00D7D9BD /* GCMCrypto.swift */,
 				3650FAF31D27CD8400444E79 /* CryptoHelper.swift */,
 				36B2ACD81DDF407F00BD2C3D /* HMAC.swift */,
 				3650FAE71D27BE8800444E79 /* Libsodium.swift */,
@@ -1616,6 +1619,7 @@
 				36C48D631CF88EB60071804F /* SpeedAdapter.swift in Sources */,
 				36C48D581CF88EB60071804F /* AuthenticationServerAdapterFactory.swift in Sources */,
 				36C48D561CF88EB60071804F /* AdapterFactoryManager.swift in Sources */,
+				9AA409DC23447CE400D7D9BD /* GCMCrypto.swift in Sources */,
 				36C48D751CF88ED40071804F /* RawSocketFactory.swift in Sources */,
 				36C48D7C1CF88EDA0071804F /* RuleManager.swift in Sources */,
 				36A719F81D64078800DC35F5 /* ObserverFactory.swift in Sources */,
